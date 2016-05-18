@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hyperconnected</string>
+    <string name="greetings">Today counter</string>
+    <string name="counter_desc">Screens on</string>
+</resources>
