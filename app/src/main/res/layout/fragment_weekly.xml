@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mathieu_fontenille.hyperconnected.WeeklyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_desc"
+        android:id="@+id/countDesc"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_marginTop="51dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weeklyCount"
+        android:id="@+id/countTitle"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/count"
+        android:textSize="100sp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>

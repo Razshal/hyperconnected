@@ -3,4 +3,14 @@
     <string name="app_name">Hyperconnecté</string>
     <string name="greetings">Compteur de la journée</string>
     <string name="counter_desc">Allumages d\'écran</string>
+    <string name="first_menu_row_title">Aujourd\'hui</string>
+    <string name="fourth_menu_row_title">L\'année</string>
+    <string name="fifth_menu_row_title">Tout</string>
+    <string name="second_menu_row_title">La semaine</string>
+    <string name="third_menu_row_title">Le mois</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="reset_button">Remise à zéro</string>
+    <string name="menu_desc">Options</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="weeklyCount">Compteur de la semaine</string>
 </resources>

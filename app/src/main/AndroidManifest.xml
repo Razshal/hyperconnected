@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mathieu_fontenille.hyperconnectivity">
+    package="com.mathieu_fontenille.hyperconnected">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
 
     <application
         android:allowBackup="true"
@@ -10,7 +11,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,16 +27,14 @@
             android:name=".ListenerService"
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"></service>
+            android:label="@string/app_name">
+        </service>
 
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mathieu_fontenille.hyperconnectivity.MainActivity" />
-        </activity>
+        <receiver android:name="com.mathieu_fontenille.hyperconnected.OnBootStarter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
