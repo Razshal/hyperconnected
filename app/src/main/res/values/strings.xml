@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Hyperconnected</string>
-    <string name="greetings">You watched</string>
+    <string name="greetings">You have watched</string>
     <string name="counter_desc">your phone today</string>
     <string name="title_activity_settings">Settings</string>
 
