@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hyperconnecté</string>
-    <string name="greetings">Compteur de la journée</string>
-    <string name="counter_desc">Allumages d\'écran</string>
+    <string name="greetings">Vous avez regardé</string>
+    <string name="counter_desc">votre smartphone aujourd\'hui</string>
     <string name="first_menu_row_title">Aujourd\'hui</string>
     <string name="fourth_menu_row_title">L\'année</string>
     <string name="fifth_menu_row_title">Tout</string>
@@ -13,4 +13,5 @@
     <string name="menu_desc">Options</string>
     <string name="action_settings">Paramètres</string>
     <string name="weeklyCount">Compteur de la semaine</string>
+    <string name="times">fois</string>
 </resources>

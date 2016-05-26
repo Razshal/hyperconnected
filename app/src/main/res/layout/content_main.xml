@@ -10,7 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.mathieu_fontenille.hyperconnected.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/main_layout"
+    android:background="@drawable/side_nav_bar"
+    android:backgroundTint="#cfcfcf">
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/counter_desc"
         android:id="@+id/countDesc"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textAlignment="center"
         android:layout_below="@+id/count"
         android:layout_centerHorizontal="true"
@@ -44,13 +47,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="99dp" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reset_button"
-        android:id="@+id/resetButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:textSize="30sp" />
+        android:text="@string/times"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/count"
+        android:layout_toEndOf="@+id/count" />
+
 
 </RelativeLayout>

@@ -23,6 +23,13 @@
             </intent-filter>
         </activity>
 
+        <fragment android:name="com.mathieu_fontenille.hyperconnected.WeeklyFragment"
+            android:id="@+id/weekly_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
         <service
             android:name=".ListenerService"
             android:exported="false"
